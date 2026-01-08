@@ -409,6 +409,8 @@ h2 {
     padding: 2.5rem;
     position: relative;
     transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .pricing-card:hover {
@@ -484,6 +486,7 @@ h2 {
 .pricing-card .btn {
     width: 100%;
     justify-content: center;
+    margin-top: auto;
 }
 
 .commands {
